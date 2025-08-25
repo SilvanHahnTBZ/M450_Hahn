@@ -1,17 +1,5 @@
 # M450 – Grundlagen zu Testing und Testing in Vorgehensmodellen
 
-Diese Abgabe enthält kurze, prüfbare Antworten zu Aufgabe 1 und 2 sowie die vollständige Implementierung von Aufgabe 3 (inkl. Testtreiber) und die Bonus-Korrektur.
-
----
-
-## Lernziele (Kurzfassung)
-
-- Gründe für das Testen nennen (Qualität, Zuverlässigkeit, Risikoreduktion)
-- Fehler vs. Mangel unterscheiden
-- Fehlermaskierung erklären
-- Warum vollständiges Testen nicht möglich ist (kombinatorische Explosion)
-- Kriterien für gute Testfälle (Wahrscheinlichkeit, Unabhängigkeit, geringe Redundanz, Abdeckung)
-- Vorgehensmodelle (V-Modell, SCRUM) und typische Testarten zuordnen
 
 ---
 
@@ -29,7 +17,7 @@ Die `.java`-Dateien liegen bewusst flach in `src/` (kein Maven/Gradle-Layout), d
 
 ---
 
-## Aufgabe 1 – Testarten (Was? Wie in der Praxis?)
+## Aufgabe 1 – Testarten 
 
 - **Unit-/Komponententest**  
   Test einzelner Funktionen/Klassen isoliert.  
@@ -47,7 +35,7 @@ Die `.java`-Dateien liegen bewusst flach in `src/` (kein Maven/Gradle-Layout), d
 
 ---
 
-## Aufgabe 2 – Beispiele
+## Aufgabe 2
 
 - **SW-Fehler (Bug):** Rabattlogik gewichtet „≥ 5 Extras“ fälschlich nur mit 10 % statt 15 % (falsche if-Reihenfolge).
 - **SW-Mangel:** Berechnung korrekt, aber GUI zeigt Preis in falscher Währung oder rundet falsch → Darstellungs-/Usability-Problem.
