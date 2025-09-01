@@ -75,14 +75,13 @@
 
 ### 3.2 White-Box-Kandidaten (Methoden/Pfade mit Links)
 
-- [`Account.deposit(double amount)`](./src/main/java/ch/tbz/bank/software/Account.java) – Normalfall, `amount <= 0` Fehlerpfad
-- [`Account.withdraw(double amount)`](./src/main/java/ch/tbz/bank/software/Account.java) – Deckung vorhanden / nicht vorhanden
-- [`Bank.createAccount(String, Currency, double)`](./src/main/java/ch/tbz/bank/software/Bank.java) – korrektes Anlegen von Konten
-- [`Bank.getAccount(int nr)`](./src/main/java/ch/tbz/bank/software/Bank.java) – Treffer / nicht vorhanden
-- [`Bank.deleteAccount(Account)`](./src/main/java/ch/tbz/bank/software/Bank.java) – Konto existiert / existiert nicht
-- [`Counter.transferAmount(Account, Account)`](./src/main/java/ch/tbz/bank/software/Counter.java) – Erfolg, Konto existiert nicht, Konto identisch
-- [`ExchangeRateOkhttp.getExchangeRate(String, String)`](./src/main/java/ch/tbz/bank/software/ExchangeRateOkhttp.java) – Erfolgsfall, Fehlerfall (Timeout, API down)
-- [`Main.main()`](./src/main/java/ch/tbz/bank/software/Main.java) – Start des Programms, Menü-Navigation
+- [`Account.deposit(double amount)`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/Account.java) – Normalfall, `amount <= 0` Fehlerpfad
+- [`Account.withdraw(double amount)`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/Account.java) – Deckung vorhanden / nicht vorhanden
+- [`Bank.createAccount(String, Currency, double)`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/Bank.java) – korrektes Anlegen von Konten
+- [`Bank.getAccount(int nr)`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/Bank.java) – Treffer / nicht vorhanden
+- [`Counter.transferAmount(Account, Account)`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/Counter.java) – Erfolg, Konto existiert nicht, Konto identisch
+- [`ExchangeRateOkhttp.getExchangeRate(String, String)`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/ExchangeRateOkhttp.java) – Erfolgsfall, Fehlerfall (Timeout, API down)
+- [`Main.main()`](./bank-software-mvn/bank-software-mvn/src/main/java/ch/tbz/bank/software/Main.java) – Start des Programms, Menü-Navigation
 
 ### 3.3 Verbesserungen / Best Practices
 
